@@ -151,6 +151,27 @@ body{
     outline: none;
 }
 
+button {
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 14pt;
+    cursor: pointer;
+    background-color: rgb(88,180,255);
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 5px black;
+    transition: box-shadow 150ms,background-color 150ms,color 150ms;
+}
+
+button:active {
+    box-shadow: none;
+    background-color: rgb(75, 152, 214);
+    color: rgb(44,44,44);
+}
+
 @media screen and (max-width: 480px) {
     #header h2, #links {
         margin: auto;
